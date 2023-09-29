@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import { ErrorElement } from "../shared";
 import { Dashboard, MainLayouts } from "../layouts";
-import { Home } from "../pages";
+import { About, Academic, AdmissionInfo, Contact, Home, Opportunities, Others, Results, Students } from "../pages";
 
 
 export const router = createBrowserRouter([
@@ -16,8 +16,37 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/about",
-                element: <h1>About</h1>
+                element: <About/>
+            },
+            {
+                path:"/academic",
+                element:<Academic />
+            },
+            {
+                path:"/admission",
+                element:<AdmissionInfo />
+            },
+            {
+                path:"/contact",
+                element:<Contact />
+            },
+            {
+                path:"/opportunities",
+                element:<Opportunities />
+            },
+            {
+                path:"/others",
+                element:<Others/>
+            },
+            {
+                path:"/results",
+                element:<Results/>
+            },
+            {
+                path:"/students",
+                element:<Students />
             }
+
         ]
     },
     {

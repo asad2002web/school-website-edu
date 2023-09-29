@@ -1,7 +1,8 @@
+import { IsLoading } from "../../shared"
 
 const Opportunities = () => {
   return (
-    <div>Opportunities</div>
+    <IsLoading/>
   )
 }
 

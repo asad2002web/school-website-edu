@@ -1,8 +1,12 @@
-import React from 'react'
+import CopyRight from "./CopyRight"
+import UsefulLink from './UsefulLink';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+      <UsefulLink />
+      <CopyRight />
+    </footer>
   )
 }
 
